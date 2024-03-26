@@ -10,7 +10,7 @@ import {
 } from '@nestjs/common';
 import { CategoryService } from './category.service';
 import { AuthGuard } from './auth/auth.guard';
-import Role from '../src/auth/user.constants';
+import Role from './auth/user.constants';
 
 @Controller('categories')
 export class CategoryController {
